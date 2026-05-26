@@ -1,0 +1,18 @@
+{
+  "name": "oldphotofixer",
+  "version": "1.0.0",
+  "description": "Free AI old photo restoration in browser - no uploads, 100% private",
+  "type": "module",
+  "scripts": {
+    "generate-blog": "node scripts/generate-blog.js"
+  },
+  "keywords": [
+    "photo-restoration",
+    "ai",
+    "old-photos",
+    "image-enhancement",
+    "browser-based"
+  ],
+  "author": "",
+  "license": "MIT"
+}

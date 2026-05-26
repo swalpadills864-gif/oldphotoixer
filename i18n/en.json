@@ -1,0 +1,91 @@
+{
+  "lang": "en",
+  "langName": "English",
+  "dir": "ltr",
+  "siteName": "OldPhotoFixer",
+  "nav": {
+    "tool": "Tool",
+    "blog": "Blog",
+    "features": "Features",
+    "privacy": "Privacy"
+  },
+  "hero": {
+    "title": "Restore Old Photos with AI",
+    "titleAccent": "Completely Free & Private",
+    "subtitle": "No uploads. No server costs. Your photos never leave your device. Powered by AI running directly in your browser.",
+    "badge1": "100% Private",
+    "badge2": "Instant Processing",
+    "badge3": "100% Free"
+  },
+  "upload": {
+    "text": "Drop your old photo here",
+    "subtext": "or click to browse",
+    "formats": "Supports JPG, PNG, WebP (max 10MB)",
+    "changePhoto": "Change Photo"
+  },
+  "process": {
+    "btn": "Restore Photo",
+    "loading": "Loading Models...",
+    "processing": "Processing...",
+    "status1": "Initializing...",
+    "status2": "Loading AI engine...",
+    "status3": "Downloading model...",
+    "status4": "Initializing model...",
+    "status5": "Enhancing photo...",
+    "status6": "Applying enhancements...",
+    "status7": "Finalizing...",
+    "status8": "Complete!",
+    "complete": "Complete!"
+  },
+  "result": {
+    "header": "Restoration Complete!",
+    "download": "Download Restored Photo",
+    "before": "Before",
+    "after": "After"
+  },
+  "error": {
+    "invalidFormat": "Please select a JPG, PNG, or WebP image.",
+    "fileTooLarge": "Image is too large. Please select an image under 10MB.",
+    "largeFileWarn": "Large image may take longer to process. Consider using a smaller image for faster results.",
+    "loadFailed": "Failed to load image. Please try again.",
+    "processFailed": "Failed to process image. Please try again."
+  },
+  "features": {
+    "title": "Why Choose OldPhotoFixer?",
+    "card1Title": "100% Private",
+    "card1Desc": "Your photos never leave your device. All processing happens locally in your browser. No uploads, no servers, no data collection.",
+    "card2Title": "Lightning Fast",
+    "card2Desc": "Process your photos in seconds. No waiting for server responses or dealing with upload failures.",
+    "card3Title": "Always Free",
+    "card3Desc": "No subscriptions, no credit packs, no watermarks. Restore as many photos as you want, completely free forever."
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1Title": "Upload Your Photo",
+    "step1Desc": "Drag and drop or click to select any old, blurry, or damaged photo from your device.",
+    "step2Title": "AI Restoration",
+    "step2Desc": "Our AI model runs directly in your browser to enhance clarity, fix damage, and upscale your photo.",
+    "step3Title": "Download Result",
+    "step3Desc": "Compare the before and after, then download your restored photo in full quality."
+  },
+  "cta": {
+    "title": "Ready to Restore Your Memories?",
+    "desc": "Bring your old photos back to life in seconds. No signup required.",
+    "btn": "Try OldPhotoFixer Now"
+  },
+  "footer": {
+    "home": "Home",
+    "blog": "Blog",
+    "privacy": "Privacy Policy",
+    "copyright": "All rights reserved."
+  },
+  "noWebGL": {
+    "title": "Browser Not Supported",
+    "desc": "Your browser doesn't support WebGL, which is required for AI photo processing. Please try a modern browser like Chrome, Firefox, or Edge."
+  },
+  "meta": {
+    "title": "OldPhotoFixer - Free AI Old Photo Restoration in Browser",
+    "description": "Restore old, blurry, damaged photos instantly in your browser. Free, private, no uploads. AI-powered photo restoration without any server costs.",
+    "keywords": "old photo restoration, restore old photos, photo enhancer, AI photo restoration, free photo restoration"
+  }
+}

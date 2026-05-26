@@ -1,0 +1,91 @@
+{
+  "lang": "zh-Hans",
+  "langName": "简体中文",
+  "dir": "ltr",
+  "siteName": "OldPhotoFixer",
+  "nav": {
+    "tool": "工具",
+    "blog": "博客",
+    "features": "功能",
+    "privacy": "隐私"
+  },
+  "hero": {
+    "title": "用AI修复老照片",
+    "titleAccent": "完全免费且保护隐私",
+    "subtitle": "无需上传，无服务器成本。您的照片永远不会离开您的设备。由直接在浏览器中运行的AI驱动。",
+    "badge1": "100% 隐私保护",
+    "badge2": "即时处理",
+    "badge3": "完全免费"
+  },
+  "upload": {
+    "text": "拖放老照片到这里",
+    "subtext": "或点击浏览",
+    "formats": "支持 JPG、PNG、WebP（最大 10MB）",
+    "changePhoto": "更换照片"
+  },
+  "process": {
+    "btn": "修复照片",
+    "loading": "加载模型中...",
+    "processing": "处理中...",
+    "status1": "初始化中...",
+    "status2": "加载AI引擎...",
+    "status3": "下载模型中...",
+    "status4": "初始化模型中...",
+    "status5": "增强照片中...",
+    "status6": "应用增强效果中...",
+    "status7": "完成中...",
+    "status8": "完成！",
+    "complete": "完成！"
+  },
+  "result": {
+    "header": "修复完成！",
+    "download": "下载修复后的照片",
+    "before": "修复前",
+    "after": "修复后"
+  },
+  "error": {
+    "invalidFormat": "请选择 JPG、PNG 或 WebP 格式的图片。",
+    "fileTooLarge": "图片太大，请选择 10MB 以下的图片。",
+    "largeFileWarn": "大图片处理时间较长，建议使用更小的图片以加快处理速度。",
+    "loadFailed": "图片加载失败，请重试。",
+    "processFailed": "照片处理失败，请重试。"
+  },
+  "features": {
+    "title": "为什么选择 OldPhotoFixer？",
+    "card1Title": "100% 隐私保护",
+    "card1Desc": "您的照片永远不会离开您的设备。所有处理都在浏览器本地完成。不上传、不使用服务器、不收集数据。",
+    "card2Title": "闪电般快速",
+    "card2Desc": "几秒钟内处理您的照片。无需等待服务器响应，也不必担心上传失败。",
+    "card3Title": "永久免费",
+    "card3Desc": "无需订阅、无需积分包、无水印。想修复多少照片就修复多少，完全免费。"
+  },
+  "howItWorks": {
+    "title": "工作原理",
+    "step1Title": "上传您的照片",
+    "step1Desc": "拖放或点击选择设备中的任何老旧、模糊或损坏的照片。",
+    "step2Title": "AI修复",
+    "step2Desc": "我们的AI模型直接在您的浏览器中运行，增强清晰度、修复损坏、提升照片分辨率。",
+    "step3Title": "下载结果",
+    "step3Desc": "对比修复前后的效果，然后以完整质量下载修复后的照片。"
+  },
+  "cta": {
+    "title": "准备好恢复您的记忆了吗？",
+    "desc": "几秒钟即可让您的老照片重焕新生。无需注册。",
+    "btn": "立即使用 OldPhotoFixer"
+  },
+  "footer": {
+    "home": "首页",
+    "blog": "博客",
+    "privacy": "隐私政策",
+    "copyright": "版权所有。"
+  },
+  "noWebGL": {
+    "title": "浏览器不支持",
+    "desc": "您的浏览器不支持 WebGL，这是 AI 照片处理所必需的。请使用 Chrome、Firefox 或 Edge 等现代浏览器。"
+  },
+  "meta": {
+    "title": "OldPhotoFixer - 浏览器中免费的AI老照片修复工具",
+    "description": "直接在浏览器中即时修复老旧、模糊、损坏的照片。免费、保护隐私、无需上传。无需任何服务器成本的AI驱动照片修复。",
+    "keywords": "老照片修复, 修复老照片, 照片增强, AI照片修复, 免费照片修复"
+  }
+}

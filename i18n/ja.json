@@ -1,0 +1,92 @@
+{
+  "lang": "ja",
+  "langName": "日本語",
+  "dir": "ltr",
+  "siteName": "OldPhotoFixer",
+  "nav": {
+    "tool": "ツール",
+    "blog": "ブログ",
+    "features": "機能",
+    "privacy": "プライバシー"
+  },
+  "hero": {
+    "title": "AIで古い写真を修復",
+    "titleAccent": "完全無料・プライバシー保護",
+    "subtitle": "アップロード不要。サーバーコスト不要。您的照片永远不会离开您的设备。由直接在浏览器中运行的AI驱动。",
+    "badge1": "100% プライベート",
+    "badge2": "瞬時処理",
+    "badge3": "完全無料"
+  },
+  "upload": {
+    "text": "古い写真をここにドロップ",
+    "subtext": "またはクリックして選択",
+    "formats": "JPG、PNG、WebP対応（最大10MB）",
+    "changePhoto": "写真を変える"
+  },
+  "process": {
+    "btn": "写真を修復",
+    "loading": "モデルを読み込み中...",
+    "processing": "処理中...",
+    "status1": "初期化中...",
+    "status2": "AIエンジンを読み込み中...",
+    "status3": "モデルをダウンロード中...",
+    "status4": "モデルを初期化中...",
+    "status5": "写真を強化中...",
+    "status6": "エンハンスメントを適用中...",
+    "status7": "最終処理中...",
+    "status8": "完了！",
+    "complete": "完了！"
+  },
+  "result": {
+    "header": "修復完了！",
+    "download": "修復した写真をダウンロード",
+    "before": "修復前",
+    "after": "修復後"
+  },
+  "error": {
+    "invalidFormat": "JPG、PNG、またはWebP画像を選択してください。",
+    "fileTooLarge": "画像が大きすぎます。10MB未満の画像を選択してください。",
+    "largeFileWarn": "大きな画像は処理に時間がかかります。より高速な結果を得るには、小さな画像の使用をお勧めします。",
+    "loadFailed": "画像の読み込みに失敗しました。もう一度お試しください。",
+    "processFailed": "写真の処理に失敗しました。もう一度お試しください。"
+  },
+  "features": {
+    "title": "OldPhotoFixerを選んだ理由",
+    "card1Title": "100% プライベート",
+    "card1Desc": "您的照片永远不会离开您的デバイス。所有处理都在浏览器本地完成。不上传、不使用服务器、不收集数据。",
+    "card2Title": "超高速",
+    "card2Desc": "数秒で写真を処理。服务器的応答を待つ必要もアップロードの失敗を心配する必要もありません。",
+    "card3Title": "常に無料",
+    "card3Desc": "サブスクリプション不要、クレジットパック不要透かしなし。好きなだけ写真を修復でき、完全無料。",
+    "card1Desc": "您的照片永远不会离开您的设备。所有处理都在浏览器本地完成。不上传、不使用服务器、不收集数据。"
+  },
+  "howItWorks": {
+    "title": "使い方",
+    "step1Title": "写真をアップロード",
+    "step1Desc": "ドラッグ＆ドロップまたはクリックして、古いぼやけた損傷のある写真を選びます。",
+    "step2Title": "AI修復",
+    "step2Desc": "我们的AI模型直接在您的ブラウザで実行され、明的さを向上させ、損傷を修復し、写真をアップスケールします。",
+    "step3Title": "結果をダウンロード",
+    "step3Desc": "BeforeとAfterを比較してから、 restored写真をフル الجودةでダウンロードしてください。"
+  },
+  "cta": {
+    "title": "思い出を蘇らせますか？",
+    "desc": "数秒で古い写真を生き返らせます。サインアップ不要。",
+    "btn": "OldPhotoFixerを試す"
+  },
+  "footer": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "privacy": "プライバシーポリシー",
+    "copyright": "All rights reserved."
+  },
+  "noWebGL": {
+    "title": "ブラウザ不支持",
+    "desc": "お使いのブラウザはWebGLをサポートしていません。Chrome、Firefox、Edgeなどの最新ブラウザをお試しください。"
+  },
+  "meta": {
+    "title": "OldPhotoFixer - ブラウザで無料のAI古い写真修復ツール",
+    "description": "ブラウザで古い写真、ぼやけた写真、損傷した写真を即座に修復。無料、プライベート、アップロード不要。",
+    "keywords": "古い写真修復, 写真修復, 写真エンハンス, AI写真修復,  無料写真修復"
+  }
+}

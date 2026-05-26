@@ -1,0 +1,91 @@
+{
+  "lang": "de",
+  "langName": "Deutsch",
+  "dir": "ltr",
+  "siteName": "OldPhotoFixer",
+  "nav": {
+    "tool": "Werkzeug",
+    "blog": "Blog",
+    "features": "Funktionen",
+    "privacy": "Datenschutz"
+  },
+  "hero": {
+    "title": "Alte Fotos mit KI Wiederherstellen",
+    "titleAccent": "Völlig Kostenlos und Privat",
+    "subtitle": "Keine Uploads. Keine Serverkosten. Ihre Fotos verlassen Ihr Gerät nie. Angetrieben durch KI, die direkt in Ihrem Browser läuft.",
+    "badge1": "100% Privat",
+    "badge2": "Sofortige Verarbeitung",
+    "badge3": "100% Kostenlos"
+  },
+  "upload": {
+    "text": "Altes Foto hier ablegen",
+    "subtext": "oder klicken zum Durchsuchen",
+    "formats": "Unterstützt JPG, PNG, WebP (max 10MB)",
+    "changePhoto": "Foto ändern"
+  },
+  "process": {
+    "btn": "Foto Wiederherstellen",
+    "loading": "Modelle werden geladen...",
+    "processing": "Verarbeitung...",
+    "status1": "Initialisierung...",
+    "status2": "KI-Engine wird geladen...",
+    "status3": "Modell wird heruntergeladen...",
+    "status4": "Modell wird initialisiert...",
+    "status5": "Foto wird verbessert...",
+    "status6": "Verbesserungen werden angewendet...",
+    "status7": "Abschluss...",
+    "status8": "Fertig!",
+    "complete": "Fertig!"
+  },
+  "result": {
+    "header": "Wiederherstellung Abgeschlossen!",
+    "download": "Wiederhergestelltes Foto Herunterladen",
+    "before": "Vorher",
+    "after": "Nachher"
+  },
+  "error": {
+    "invalidFormat": "Bitte wählen Sie ein JPG-, PNG- oder WebP-Bild.",
+    "fileTooLarge": "Das Bild ist zu groß. Bitte wählen Sie ein Bild unter 10MB.",
+    "largeFileWarn": "Große Bilder können länger dauern. Erwägen Sie ein kleineres Bild für schnellere Ergebnisse.",
+    "loadFailed": "Bild konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "processFailed": "Foto konnte nicht verarbeitet werden. Bitte versuchen Sie es erneut."
+  },
+  "features": {
+    "title": "Warum OldPhotoFixer Wählen?",
+    "card1Title": "100% Privat",
+    "card1Desc": "Ihre Fotos verlassen Ihr Gerät nie. Alle Verarbeitung erfolgt lokal in Ihrem Browser. Keine Uploads, keine Server, keine Datensammlung.",
+    "card2Title": "Blitzschnell",
+    "card2Desc": "Verarbeiten Sie Ihre Fotos in Sekunden. Kein Warten auf Serverantworten oder Sorgen um Upload-Fehler.",
+    "card3Title": "Immer Kostenlos",
+    "card3Desc": "Keine Abonnements, keine Kreditpakete, keine Wasserzeichen. Stellen Sie so viele Fotos wieder her wie Sie möchten, völlig kostenlos."
+  },
+  "howItWorks": {
+    "title": "So Funktioniert Es",
+    "step1Title": "Laden Sie Ihr Foto Hoch",
+    "step1Desc": "Ziehen Sie ein altes, unscharfes oder beschädigtes Foto per Drag & Drop oder Klick auf Ihr Gerät.",
+    "step2Title": "KI-Wiederherstellung",
+    "step2Desc": "Unser KI-Modell läuft direkt in Ihrem Browser, um Klarheit zu verbessern, Schäden zu reparieren und Fotos zu skalieren.",
+    "step3Title": "Ergebnis Herunterladen",
+    "step3Desc": "Vergleichen Sie Vorher und Nachher, dann laden Sie Ihr wiederhergestelltes Foto in voller Qualität herunter."
+  },
+  "cta": {
+    "title": "Bereit Ihre Erinnerungen Wiederherzustellen?",
+    "desc": "Beleben Sie Ihre alten Fotos in Sekunden wieder. Keine Anmeldung erforderlich.",
+    "btn": "OldPhotoFixer Jetzt Ausprobieren"
+  },
+  "footer": {
+    "home": "Startseite",
+    "blog": "Blog",
+    "privacy": "Datenschutzrichtlinie",
+    "copyright": "Alle Rechte vorbehalten."
+  },
+  "noWebGL": {
+    "title": "Browser Nicht Unterstützt",
+    "desc": "Ihr Browser unterstützt kein WebGL, das für die KI-Fotoverarbeitung erforderlich ist. Bitte versuchen Sie einen modernen Browser wie Chrome, Firefox oder Edge."
+  },
+  "meta": {
+    "title": "OldPhotoFixer - Kostenloses KI-Tool zur Alten-Foto-Wiederherstellung im Browser",
+    "description": "Stellen Sie alte, unscharfe und beschädigte Fotos sofort in Ihrem Browser wieder her. Kostenlos, privat, keine Uploads. KI-Fotowiederherstellung ohne Serverkosten.",
+    "keywords": "Alte-Foto-Wiederherstellung, Fotos wiederherstellen, Fotoverbesserung, KI-Fotowiederherstellung, kostenlose Fotowiederherstellung"
+  }
+}

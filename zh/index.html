@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OldPhotoFixer - 浏览器中免费的AI老照片修复工具</title>
+    <meta name="description" content="直接在浏览器中即时修复老旧、模糊、损坏的照片。免费，保护隐私、无需上传。无需任何服务器成本的AI驱动照片修复。">
+    <meta name="keywords" content="老照片修复, 修复老照片, 照片增强, AI照片修复, 免费照片修复, 照片修复, 模糊照片, 照片编辑">
+    <meta name="author" content="OldPhotoFixer">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="googlebot" content="index, follow">
+
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="US">
+    <meta name="geo.placename" content="San Francisco">
+    <meta name="geo.position" content="37.7749;-122.4194">
+    <meta name="ICBM" content="37.7749, -122.4194">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://oldphotoixer.ai-world.top/zh/index.html">
+    <meta property="og:title" content="OldPhotoFixer - 浏览器中免费的AI老照片修复工具">
+    <meta property="og:description" content="直接在浏览器中即时修复老旧、模糊、损坏的照片。免费，保护隐私、无需上传。无需任何服务器成本的AI驱动照片修复。">
+    <meta property="og:image" content="https://oldphotoixer.ai-world.top/images/og-image.svg">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:site_name" content="OldPhotoFixer">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="OldPhotoFixer - 浏览器中免费的AI老照片修复工具">
+    <meta name="twitter:description" content="直接在浏览器中即时修复老旧、模糊、损坏的照片。免费，保护隐私、无需上传。无需任何服务器成本的AI驱动照片修复。">
+    <meta name="twitter:image" content="https://oldphotoixer.ai-world.top/images/og-image.svg">
+
+    <!-- Canonical and hreflang -->
+    <link rel="canonical" href="https://oldphotoixer.ai-world.top/zh/index.html">
+    <link rel="alternate" hreflang="en" href="https://oldphotoixer.ai-world.top/index.html">
+    <link rel="alternate" hreflang="zh" href="https://oldphotoixer.ai-world.top/zh/index.html">
+    <link rel="alternate" hreflang="ja" href="https://oldphotoixer.ai-world.top/ja/index.html">
+    <link rel="alternate" hreflang="ko" href="https://oldphotoixer.ai-world.top/ko/index.html">
+    <link rel="alternate" hreflang="es" href="https://oldphotoixer.ai-world.top/es/index.html">
+    <link rel="alternate" hreflang="fr" href="https://oldphotoixer.ai-world.top/fr/index.html">
+    <link rel="alternate" hreflang="pt" href="https://oldphotoixer.ai-world.top/pt/index.html">
+    <link rel="alternate" hreflang="ar" href="https://oldphotoixer.ai-world.top/ar/index.html">
+    <link rel="alternate" hreflang="de" href="https://oldphotoixer.ai-world.top/de/index.html">
+    <link rel="alternate" hreflang="ru" href="https://oldphotoixer.ai-world.top/ru/index.html">
+    <link rel="alternate" hreflang="x-default" href="https://oldphotoixer.ai-world.top/index.html">
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📷</text></svg>">
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "OldPhotoFixer",
+        "url": "https://oldphotoixer.ai-world.top",
+        "description": "Free AI-powered old photo restoration tool that works entirely in your browser.",
+        "inLanguage": "zh",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://oldphotoixer.ai-world.top/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <a href="/zh/index.html" class="logo"><img src="../images/logo.svg" alt="OldPhotoFixer - Free AI Photo Restoration Tool" width="170" height="36" loading="lazy"></a>
+            <nav class="nav" aria-label="Main navigation">
+                <a href="/zh/index.html#tool" class="nav-link">工具</a>
+                <a href="/zh/blog/index.html" class="nav-link">博客</a>
+                <a href="/zh/index.html#features" class="nav-link">功能</a>
+                <a href="/zh/privacy.html" class="nav-link">隐私</a>
+                <div class="lang-dropdown">
+                    <button class="lang-btn" id="langBtn" aria-label="Select language">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                        <span class="lang-current">简体中文</span>
+                        <svg class="lang-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="lang-menu" id="langMenu" role="menu">
+                        <a href="/index.html" class="lang-option" role="menuitem">English</a>
+                        <a href="/zh/index.html" class="lang-option active" role="menuitem">简体中文</a>
+                        <a href="/ja/index.html" class="lang-option" role="menuitem">日本語</a>
+                        <a href="/ko/index.html" class="lang-option" role="menuitem">한국어</a>
+                        <a href="/es/index.html" class="lang-option" role="menuitem">Español</a>
+                        <a href="/fr/index.html" class="lang-option" role="menuitem">Français</a>
+                        <a href="/pt/index.html" class="lang-option" role="menuitem">Português</a>
+                        <a href="/ar/index.html" class="lang-option" role="menuitem">العربية</a>
+                        <a href="/de/index.html" class="lang-option" role="menuitem">Deutsch</a>
+                        <a href="/ru/index.html" class="lang-option" role="menuitem">Русский</a>
+                    </div>
+                </div>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile navigation">
+        <a href="/zh/index.html#tool" class="mobile-nav-link">工具</a>
+        <a href="/zh/blog/index.html" class="mobile-nav-link">博客</a>
+        <a href="/zh/index.html#features" class="mobile-nav-link">功能</a>
+        <a href="/zh/privacy.html" class="mobile-nav-link">隐私</a>
+        <div class="mobile-nav-lang">
+            <div class="mobile-nav-lang-label">Language</div>
+            <a href="/index.html" class="mobile-nav-lang-link">English</a>
+            <a href="/zh/index.html" class="mobile-nav-lang-link active">简体中文</a>
+            <a href="/ja/index.html" class="mobile-nav-lang-link">日本語</a>
+            <a href="/ko/index.html" class="mobile-nav-lang-link">한국어</a>
+            <a href="/es/index.html" class="mobile-nav-lang-link">Español</a>
+            <a href="/fr/index.html" class="mobile-nav-lang-link">Français</a>
+            <a href="/pt/index.html" class="mobile-nav-lang-link">Português</a>
+            <a href="/ar/index.html" class="mobile-nav-lang-link">العربية</a>
+            <a href="/de/index.html" class="mobile-nav-lang-link">Deutsch</a>
+            <a href="/ru/index.html" class="mobile-nav-lang-link">Русский</a>
+        </div>
+    </div>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container">
+                <h1 class="hero-title">用AI修复老照片<br><span class="accent">完全免费且保护隐私</span></h1>
+                <p class="hero-subtitle">无需上传，无服务器成本。您的照片永远不会离开您的设备。由直接在浏览器中运行的AI驱动。</p>
+                <div class="hero-badges">
+                    <span class="badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        100% 隐私保护
+                    </span>
+                    <span class="badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                        即时处理
+                    </span>
+                    <span class="badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        完全免费
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-section" id="tool">
+            <div class="container">
+                <div class="upload-zone" id="uploadZone">
+                    <div class="upload-content" id="uploadContent">
+                        <svg class="upload-icon" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                            <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                        <p class="upload-text">拖放老照片到这里</p>
+                        <p class="upload-subtext">或点击浏览</p>
+                        <p class="upload-formats">支持 JPG、PNG、WebP（最大 10MB）</p>
+                    </div>
+                    <div class="preview-content" id="previewContent" style="display: none;">
+                        <img id="previewImage" class="preview-image" alt="Preview">
+                        <button class="change-photo-btn" id="changePhotoBtn">更换照片</button>
+                    </div>
+                    <input type="file" id="fileInput" accept="image/jpeg,image/png,image/webp" hidden>
+                </div>
+
+                <div class="error-message" id="errorMessage" style="display: none;"></div>
+
+                <button class="process-btn" id="processBtn" disabled>
+                    <span class="btn-text">修复照片</span>
+                    <span class="btn-loading" style="display: none;">
+                        <svg class="spinner" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10" stroke-opacity="0.3"></circle>
+                            <path d="M12 2a10 10 0 0 1 10 10"></path>
+                        </svg>
+                        <span class="loading-text">加载模型中...</span>
+                    </span>
+                </button>
+
+                <div class="progress-container" id="progressContainer" style="display: none;">
+                    <div class="progress-header">
+                        <span class="progress-status" id="progressStatus">初始化中...</span>
+                        <span class="progress-percent" id="progressPercent">0%</span>
+                    </div>
+                    <div class="progress-track">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+
+                <div class="result-container" id="resultContainer" style="display: none;">
+                    <div class="result-header">
+                        <h2>修复完成！</h2>
+                        <button class="download-btn" id="downloadBtn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            下载修复后的照片
+                        </button>
+                    </div>
+                    <div class="comparison-container" id="comparisonContainer">
+                        <div class="comparison-wrapper">
+                            <img id="beforeImage" class="comparison-image before-image" alt="修复前">
+                            <img id="afterImage" class="comparison-image after-image" alt="修复后">
+                            <div class="comparison-slider" id="comparisonSlider">
+                                <div class="slider-line"></div>
+                                <div class="slider-handle" id="sliderHandle">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="15 18 9 12 15 6"></polyline>
+                                    </svg>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comparison-labels">
+                            <span class="comparison-label">修复前</span>
+                            <span class="comparison-label">修复后</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section" id="features">
+            <div class="container">
+                <h2 class="section-title">为什么选择 OldPhotoFixer？</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h3>100% 隐私保护</h3>
+                        <p>您的照片永远不会离开您的设备。所有处理都在浏览器本地完成。不上传、不使用服务器、不收集数据。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                            </svg>
+                        </div>
+                        <h3>闪电般快速</h3>
+                        <p>几秒钟内处理您的照片。无需等待服务器响应，也不必担心上传失败。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="8" x2="12" y2="16"></line>
+                                <line x1="8" y1="12" x2="16" y2="12"></line>
+                            </svg>
+                        </div>
+                        <h3>永久免费</h3>
+                        <p>无需订阅、无需积分包、无水印。想修复多少照片就修复多少，完全免费。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works" id="how-it-works">
+            <div class="container">
+                <h2 class="section-title">工作原理</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>上传您的照片</h3>
+                        <p>拖放或点击选择设备中的任何老旧、模糊或损坏的照片。</p>
+                    </div>
+                    <div class="step-arrow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>AI修复</h3>
+                        <p>我们的AI模型直接在您的浏览器中运行，增强清晰度、修复损坏，提升照片分辨率。</p>
+                    </div>
+                    <div class="step-arrow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>下载结果</h3>
+                        <p>对比修复前后的效果，然后以完整质量下载修复后的照片。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>准备好恢复您的记忆了吗？</h2>
+                <p>几秒钟即可让您的老照片重焕新生。无需注册。</p>
+                <a href="/zh/index.html#tool" class="cta-btn">立即使用 OldPhotoFixer</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="/zh/index.html">首页</a>
+                <a href="/zh/blog/index.html">博客</a>
+                <a href="/zh/privacy.html">隐私政策</a>
+            </div>
+            <p class="footer-copy">&copy; 2025 保留所有权利。</p>
+        </div>
+    </footer>
+
+    <div class="no-webgl-overlay" id="noWebglOverlay" style="display: none;">
+        <div class="no-webgl-content">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            <h2>浏览器不支持</h2>
+            <p>您的浏览器不支持 WebGL，这是 AI 照片处理所必需的。请使用 Chrome、Firefox 或 Edge 等现代浏览器。</p>
+        </div>
+    </div>
+
+    <script src="../js/app.js" type="module"></script>
+</body>
+</html>

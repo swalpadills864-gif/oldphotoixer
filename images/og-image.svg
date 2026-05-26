@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#f472b6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="200" fill="#e94560" opacity="0.1"/>
+  <circle cx="1100" cy="530" r="250" fill="#f472b6" opacity="0.1"/>
+  <circle cx="600" cy="315" r="300" fill="#ffffff" opacity="0.02"/>
+
+  <!-- Before/After Photo Frames -->
+  <g transform="translate(120, 165)">
+    <!-- Before frame -->
+    <rect x="0" y="0" width="220" height="280" rx="12" fill="#2a2a4a" stroke="#4a4a6a" stroke-width="2"/>
+    <rect x="15" y="15" width="190" height="200" rx="8" fill="#3a3a5a"/>
+    <text x="110" y="250" font-family="Arial, sans-serif" font-size="14" fill="#888" text-anchor="middle">Before</text>
+
+    <!-- Blurry effect lines for before -->
+    <g opacity="0.3">
+      <line x1="30" y1="50" x2="190" y2="50" stroke="#666" stroke-width="2"/>
+      <line x1="30" y1="80" x2="190" y2="80" stroke="#666" stroke-width="2"/>
+      <line x1="30" y1="110" x2="190" y2="110" stroke="#666" stroke-width="2"/>
+      <line x1="30" y1="140" x2="190" y2="140" stroke="#666" stroke-width="2"/>
+      <line x1="30" y1="170" x2="190" y2="170" stroke="#666" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- Arrow -->
+  <g transform="translate(400, 280)">
+    <polygon points="0,25 50,0 50,20 120,20 120,30 50,30 50,50" fill="url(#accentGrad)"/>
+  </g>
+
+  <!-- After frame -->
+  <g transform="translate(580, 165)">
+    <rect x="0" y="0" width="220" height="280" rx="12" fill="#2a2a4a" stroke="#e94560" stroke-width="2"/>
+    <rect x="15" y="15" width="190" height="200" rx="8" fill="#3a3a5a"/>
+    <text x="110" y="250" font-family="Arial, sans-serif" font-size="14" fill="#e94560" text-anchor="middle">After</text>
+
+    <!-- Clear portrait lines for after -->
+    <g opacity="0.6">
+      <circle cx="70" cy="80" r="30" stroke="#e94560" stroke-width="2" fill="none"/>
+      <path d="M30 200 Q70 150 110 180 Q150 210 190 200" stroke="#e94560" stroke-width="2" fill="none"/>
+      <circle cx="140" cy="90" r="20" stroke="#f472b6" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Logo/Title -->
+  <g transform="translate(600, 520)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      <tspan fill="url(#accentGrad)">OldPhotoFixer</tspan>
+    </text>
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="18" fill="#888" text-anchor="middle">
+      Free AI Photo Restoration
+    </text>
+  </g>
+
+  <!-- Camera icon -->
+  <g transform="translate(60, 530)">
+    <circle cx="30" cy="30" r="28" fill="none" stroke="url(#accentGrad)" stroke-width="3"/>
+    <circle cx="30" cy="30" r="12" fill="none" stroke="url(#accentGrad)" stroke-width="2"/>
+    <circle cx="30" cy="30" r="5" fill="#e94560"/>
+  </g>
+</svg>

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{meta.title}}</title>
+    <meta name="description" content="{{meta.description}}">
+    <meta name="keywords" content="{{meta.keywords}}">
+    <meta property="og:title" content="{{meta.title}}">
+    <meta property="og:description" content="{{meta.description}}">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="canonical" href="{{canonicalUrl}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{cssFile}}">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📷</text></svg>">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <a href="{{homeUrl}}" class="logo"><img src="../images/logo.svg" alt="OldPhotoFixer - Free AI Photo Restoration Tool" width="170" height="36" loading="lazy"></a>
+            <nav class="nav">
+                <a href="{{homeUrl}}#tool" class="nav-link">{{nav.tool}}</a>
+                <a href="{{blogUrl}}" class="nav-link">{{nav.blog}}</a>
+                <a href="{{homeUrl}}#features" class="nav-link">{{nav.features}}</a>
+                <a href="{{privacyUrl}}" class="nav-link">{{nav.privacy}}</a>
+                <div class="lang-dropdown">
+                    <button class="lang-btn" id="langBtn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                        <span class="lang-current">{{langCode}}</span>
+                        <svg class="lang-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="lang-menu" id="langMenu">
+                        <a href="/index.html" class="lang-option{{#ifCond langCode '==' 'en'}} active{{/ifCond}}">English</a>
+                        <a href="/zh/index.html" class="lang-option{{#ifCond langCode '==' 'zh'}} active{{/ifCond}}">简体中文</a>
+                        <a href="/ja/index.html" class="lang-option{{#ifCond langCode '==' 'ja'}} active{{/ifCond}}">日本語</a>
+                        <a href="/ko/index.html" class="lang-option{{#ifCond langCode '==' 'ko'}} active{{/ifCond}}">한국어</a>
+                        <a href="/es/index.html" class="lang-option{{#ifCond langCode '==' 'es'}} active{{/ifCond}}">Español</a>
+                        <a href="/fr/index.html" class="lang-option{{#ifCond langCode '==' 'fr'}} active{{/ifCond}}">Français</a>
+                        <a href="/pt/index.html" class="lang-option{{#ifCond langCode '==' 'pt'}} active{{/ifCond}}">Português</a>
+                        <a href="/ar/index.html" class="lang-option{{#ifCond langCode '==' 'ar'}} active{{/ifCond}}">العربية</a>
+                        <a href="/de/index.html" class="lang-option{{#ifCond langCode '==' 'de'}} active{{/ifCond}}">Deutsch</a>
+                        <a href="/ru/index.html" class="lang-option{{#ifCond langCode '==' 'ru'}} active{{/ifCond}}">Русский</a>
+                    </div>
+                </div>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav" id="mobileNav">
+        <a href="{{homeUrl}}#tool" class="mobile-nav-link">{{nav.tool}}</a>
+        <a href="{{blogUrl}}" class="mobile-nav-link">{{nav.blog}}</a>
+        <a href="{{homeUrl}}#features" class="mobile-nav-link">{{nav.features}}</a>
+        <a href="{{privacyUrl}}" class="mobile-nav-link">{{nav.privacy}}</a>
+        <div class="mobile-nav-lang">
+            <div class="mobile-nav-lang-label">{{nav.language}}</div>
+            <a href="/index.html" class="mobile-nav-lang-link{{#ifCond langCode '==' 'en'}} active{{/ifCond}}">English</a>
+            <a href="/zh/index.html" class="mobile-nav-lang-link{{#ifCond langCode '==' 'zh'}} active{{/ifCond}}">简体中文</a>
+            <a href="/ja/index.html" class="mobile-nav-lang-link{{#ifCond langCode '==' 'ja'}} active{{/ifCond}}">日本語</a>
+            <a href="/ko/index.html" class="mobile-nav-lang-link{{#ifCond langCode '==' 'ko'}} active{{/ifCond}}">한국어</a>
+            <a href="/es/index.html" class="mobile-nav-lang-link{{#ifCond langCode '==' 'es'}} active{{/ifCond}}">Español</a>
+            <a href="/fr/index.html" class="mobile-nav-lang-link{{#ifCond langCode '==' 'fr'}} active{{/ifCond}}">Français</a>
+            <a href="/pt/index.html" class="mobile-nav-lang-link{{#ifCond langCode '==' 'pt'}} active{{/ifCond}}">Português</a>
+            <a href="/ar/index.html" class="mobile-nav-lang-link{{#ifCond langCode '==' 'ar'}} active{{/ifCond}}">العربية</a>
+            <a href="/de/index.html" class="mobile-nav-lang-link{{#ifCond langCode '==' 'de'}} active{{/ifCond}}">Deutsch</a>
+            <a href="/ru/index.html" class="mobile-nav-lang-link{{#ifCond langCode '==' 'ru'}} active{{/ifCond}}">Русский</a>
+        </div>
+    </div>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container">
+                <h1 class="hero-title">{{hero.title}}<br><span class="accent">{{hero.titleAccent}}</span></h1>
+                <p class="hero-subtitle">{{hero.subtitle}}</p>
+                <div class="hero-badges">
+                    <span class="badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        {{hero.badge1}}
+                    </span>
+                    <span class="badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                        {{hero.badge2}}
+                    </span>
+                    <span class="badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        {{hero.badge3}}
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="tool-section" id="tool">
+            <div class="container">
+                <div class="upload-zone" id="uploadZone">
+                    <div class="upload-content" id="uploadContent">
+                        <svg class="upload-icon" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                            <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                        <p class="upload-text">{{upload.text}}</p>
+                        <p class="upload-subtext">{{upload.subtext}}</p>
+                        <p class="upload-formats">{{upload.formats}}</p>
+                    </div>
+                    <div class="preview-content" id="previewContent" style="display: none;">
+                        <img id="previewImage" class="preview-image" alt="Preview">
+                        <button class="change-photo-btn" id="changePhotoBtn">{{upload.changePhoto}}</button>
+                    </div>
+                    <input type="file" id="fileInput" accept="image/jpeg,image/png,image/webp" hidden>
+                </div>
+
+                <div class="error-message" id="errorMessage" style="display: none;"></div>
+
+                <button class="process-btn" id="processBtn" disabled>
+                    <span class="btn-text">{{process.btn}}</span>
+                    <span class="btn-loading" style="display: none;">
+                        <svg class="spinner" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10" stroke-opacity="0.3"></circle>
+                            <path d="M12 2a10 10 0 0 1 10 10"></path>
+                        </svg>
+                        <span class="loading-text">{{process.loading}}</span>
+                    </span>
+                </button>
+
+                <div class="progress-container" id="progressContainer" style="display: none;">
+                    <div class="progress-header">
+                        <span class="progress-status" id="progressStatus">{{process.status1}}</span>
+                        <span class="progress-percent" id="progressPercent">0%</span>
+                    </div>
+                    <div class="progress-track">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+
+                <!-- Loading Overlay -->
+                <div class="loading-overlay" id="loadingOverlay" style="display: none;">
+                    <div class="loading-modal">
+                        <div class="loading-spinner">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="#e5e7eb" stroke-width="6"/>
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="url(#gradient)" stroke-width="6" stroke-linecap="round" stroke-dasharray="70 283"/>
+                                <defs>
+                                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" stop-color="#e94560"/>
+                                        <stop offset="100%" stop-color="#f472b6"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="loading-content">
+                            <h3 class="loading-title" id="loadingTitle">Loading AI Models...</h3>
+                            <p class="loading-subtitle" id="loadingSubtitle">This may take a few moments</p>
+                            <div class="loading-progress">
+                                <div class="loading-bar">
+                                    <div class="loading-bar-fill" id="loadingBarFill"></div>
+                                </div>
+                                <span class="loading-percent" id="loadingPercent">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-container" id="resultContainer" style="display: none;">
+                    <div class="result-header">
+                        <h2>{{result.header}}</h2>
+                        <button class="download-btn" id="downloadBtn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            {{result.download}}
+                        </button>
+                    </div>
+                    <div class="comparison-container" id="comparisonContainer">
+                        <div class="comparison-wrapper">
+                            <img id="beforeImage" class="comparison-image before-image" alt="Before">
+                            <img id="afterImage" class="comparison-image after-image" alt="After">
+                            <div class="comparison-slider" id="comparisonSlider">
+                                <div class="slider-line"></div>
+                                <div class="slider-handle" id="sliderHandle">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="15 18 9 12 15 6"></polyline>
+                                    </svg>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comparison-labels">
+                            <span class="comparison-label">{{result.before}}</span>
+                            <span class="comparison-label">{{result.after}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section" id="features">
+            <div class="container">
+                <h2 class="section-title">{{features.title}}</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h3>{{features.card1Title}}</h3>
+                        <p>{{features.card1Desc}}</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                            </svg>
+                        </div>
+                        <h3>{{features.card2Title}}</h3>
+                        <p>{{features.card2Desc}}</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="8" x2="12" y2="16"></line>
+                                <line x1="8" y1="12" x2="16" y2="12"></line>
+                            </svg>
+                        </div>
+                        <h3>{{features.card3Title}}</h3>
+                        <p>{{features.card3Desc}}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works" id="how-it-works">
+            <div class="container">
+                <h2 class="section-title">{{howItWorks.title}}</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>{{howItWorks.step1Title}}</h3>
+                        <p>{{howItWorks.step1Desc}}</p>
+                    </div>
+                    <div class="step-arrow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>{{howItWorks.step2Title}}</h3>
+                        <p>{{howItWorks.step2Desc}}</p>
+                    </div>
+                    <div class="step-arrow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>{{howItWorks.step3Title}}</h3>
+                        <p>{{howItWorks.step3Desc}}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>{{cta.title}}</h2>
+                <p>{{cta.desc}}</p>
+                <a href="{{homeUrl}}#tool" class="cta-btn">{{cta.btn}}</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="{{homeUrl}}">{{footer.home}}</a>
+                <a href="{{blogUrl}}">{{footer.blog}}</a>
+                <a href="{{privacyUrl}}">{{footer.privacy}}</a>
+            </div>
+            <p class="footer-copy">&copy; 2025 {{footer.copyright}}</p>
+        </div>
+    </footer>
+
+    <div class="no-webgl-overlay" id="noWebglOverlay" style="display: none;">
+        <div class="no-webgl-content">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            <h2>{{noWebGL.title}}</h2>
+            <p>{{noWebGL.desc}}</p>
+        </div>
+    </div>
+
+    <script src="{{jsFile}}" type="module"></script>
+</body>
+</html>

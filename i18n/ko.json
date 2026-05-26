@@ -1,0 +1,91 @@
+{
+  "lang": "ko",
+  "langName": "한국어",
+  "dir": "ltr",
+  "siteName": "OldPhotoFixer",
+  "nav": {
+    "tool": "도구",
+    "blog": "블로그",
+    "features": "기능",
+    "privacy": "개인정보"
+  },
+  "hero": {
+    "title": "AI로 오래된 사진 복원",
+    "titleAccent": "완전 무료 및 프라이버시 보호",
+    "subtitle": "업로드 없음. 서버 비용 없음. 사진이 기기를 떠나지 않습니다. 브라우저에서 직접 실행되는 AI로 구동됩니다.",
+    "badge1": "100% 프라이버시",
+    "badge2": "즉시 처리",
+    "badge3": "완전 무료"
+  },
+  "upload": {
+    "text": "오래된 사진을 여기에 놓으세요",
+    "subtext": "또는 클릭하여 찾아보기",
+    "formats": "JPG, PNG, WebP 지원 (최대 10MB)",
+    "changePhoto": "사진 변경"
+  },
+  "process": {
+    "btn": "사진 복원",
+    "loading": "모델 로딩 중...",
+    "processing": "처리 중...",
+    "status1": "초기화 중...",
+    "status2": "AI 엔진 로딩 중...",
+    "status3": "모델 다운로드 중...",
+    "status4": "모델 초기화 중...",
+    "status5": "사진 향상 중...",
+    "status6": "향상 효과 적용 중...",
+    "status7": "최종 처리 중...",
+    "status8": "완료!",
+    "complete": "완료!"
+  },
+  "result": {
+    "header": "복원 완료!",
+    "download": "복원된 사진 다운로드",
+    "before": "이전",
+    "after": "이후"
+  },
+  "error": {
+    "invalidFormat": "JPG, PNG 또는 WebP 이미지를 선택하세요.",
+    "fileTooLarge": "이미지가 너무 큽니다. 10MB 미만의 이미지를 선택하세요.",
+    "largeFileWarn": "큰 이미지는 처리 시간이 더 오래 걸립니다. 더 빠른 결과를 위해 작은 이미지를 사용하는 것이 좋습니다.",
+    "loadFailed": "이미지 로드에 실패했습니다. 다시 시도해 주세요.",
+    "processFailed": "사진 처리에 실패했습니다. 다시 시도해 주세요."
+  },
+  "features": {
+    "title": "OldPhotoFixer를 선택하는 이유",
+    "card1Title": "100% 프라이버시",
+    "card1Desc": "사진이 기기를 떠나지 않습니다. 모든 처리는 브라우저에서 로컬로 수행됩니다. 업로드 없음, 서버 없음, 데이터 수집 없음.",
+    "card2Title": "闪电般的速度",
+    "card2Desc": "몇 초 만에 사진을 처리합니다. 서버 응답을 기다리거나 업로드 실패에 대한 걱정 없이.",
+    "card3Title": "항상 무료",
+    "card3Desc": "구독료 없음, 크레딧 팩 없음, 워터마크 없음. 원하는 만큼 사진을 복원할 수 있으며 완전히 무료입니다."
+  },
+  "howItWorks": {
+    "title": "작동 방식",
+    "step1Title": "사진 업로드",
+    "step1Desc": "드래그 앤 드롭하거나 클릭하여 오래되고 흐릿하거나 손상된 사진을 선택하세요.",
+    "step2Title": "AI 복원",
+    "step2Desc": "우리 AI 모델이 브라우저에서 직접 실행되어 선명도를 높이고 손상을 수정하며 사진을 업스케일합니다.",
+    "step3Title": "결과 다운로드",
+    "step3Desc": "Before와 After를 비교한 다음 복원된 사진을 전체 품질로 다운로드하세요."
+  },
+  "cta": {
+    "title": "기억을 되살릴 준비가 되셨나요?",
+    "desc": "몇 초 만에 오래된 사진을 되살립니다. 가입 불필요.",
+    "btn": "지금 OldPhotoFixer 사용하기"
+  },
+  "footer": {
+    "home": "홈",
+    "blog": "블로그",
+    "privacy": "개인정보처리방침",
+    "copyright": "All rights reserved."
+  },
+  "noWebGL": {
+    "title": "브라우저 미지원",
+    "desc": "브라우저가 WebGL을 지원하지 않습니다. Chrome, Firefox 또는 Edge와 같은 최신 브라우저를 사용해 보세요."
+  },
+  "meta": {
+    "title": "OldPhotoFixer - 브라우저에서 무료 AI 오래된 사진 복원 도구",
+    "description": "브라우저에서 오래되고 흐릿하고 손상된 사진을 즉시 복원합니다. 무료, 프라이버시 보호, 업로드 없음.",
+    "keywords": "오래된 사진 복원, 사진 복원, 사진 향상, AI 사진 복원, 무료 사진 복원"
+  }
+}

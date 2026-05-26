@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#f472b6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="180" height="180" rx="40" fill="url(#bgGrad)"/>
+
+  <!-- Camera icon -->
+  <g transform="translate(45, 50)">
+    <rect x="0" y="10" width="90" height="70" rx="12" fill="none" stroke="url(#accentGrad)" stroke-width="6"/>
+    <circle cx="45" cy="45" r="25" fill="none" stroke="url(#accentGrad)" stroke-width="5"/>
+    <circle cx="45" cy="45" r="10" fill="#e94560"/>
+    <rect x="20" y="0" width="35" height="12" rx="4" fill="url(#accentGrad)"/>
+  </g>
+</svg>

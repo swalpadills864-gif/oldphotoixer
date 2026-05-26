@@ -1,0 +1,91 @@
+{
+  "lang": "pt",
+  "langName": "Português",
+  "dir": "ltr",
+  "siteName": "OldPhotoFixer",
+  "nav": {
+    "tool": "Ferramenta",
+    "blog": "Blog",
+    "features": "Recursos",
+    "privacy": "Privacidade"
+  },
+  "hero": {
+    "title": "Restaure Fotos Antigas com IA",
+    "titleAccent": "Completamente Grátis e Privado",
+    "subtitle": "Sem envios. Sem custos de servidor. Suas fotos nunca saem do seu dispositivo. Movido por IA executada diretamente no seu navegador.",
+    "badge1": "100% Privado",
+    "badge2": "Processamento Instantâneo",
+    "badge3": "100% Grátis"
+  },
+  "upload": {
+    "text": "Arraste sua foto antiga aqui",
+    "subtext": "ou clique para procurar",
+    "formats": "Suporta JPG, PNG, WebP (máx 10MB)",
+    "changePhoto": "Trocar Foto"
+  },
+  "process": {
+    "btn": "Restaurar Foto",
+    "loading": "Carregando Modelos...",
+    "processing": "Processando...",
+    "status1": "Inicializando...",
+    "status2": "Carregando motor de IA...",
+    "status3": "Baixando modelo...",
+    "status4": "Inicializando modelo...",
+    "status5": "Melhorando foto...",
+    "status6": "Aplicando melhorias...",
+    "status7": "Finalizando...",
+    "status8": "Concluído!",
+    "complete": "Concluído!"
+  },
+  "result": {
+    "header": "Restauração Concluída!",
+    "download": "Baixar Foto Restaurada",
+    "before": "Antes",
+    "after": "Depois"
+  },
+  "error": {
+    "invalidFormat": "Por favor selecione uma imagem JPG, PNG ou WebP.",
+    "fileTooLarge": "A imagem é muito grande. Por favor selecione uma imagem com menos de 10MB.",
+    "largeFileWarn": "Imagens grandes podem demorar mais para processar. Considere usar uma imagem menor para resultados mais rápidos.",
+    "loadFailed": "Falha ao carregar a imagem. Por favor tente novamente.",
+    "processFailed": "Falha ao processar a foto. Por favor tente novamente."
+  },
+  "features": {
+    "title": "Por que Escolher o OldPhotoFixer?",
+    "card1Title": "100% Privado",
+    "card1Desc": "Suas fotos nunca saem do seu dispositivo. Todo o processamento acontece localmente no seu navegador. Sem envios, sem servidores, sem coleta de dados.",
+    "card2Title": "Ultra Rápido",
+    "card2Desc": "Processe suas fotos em segundos. Sem esperar respostas do servidor ou se preocupar com falhas de envio.",
+    "card3Title": "Sempre Grátis",
+    "card3Desc": "Sem assinaturas, sem pacotes de créditos, sem marcas d'água. Restaure quantas fotos quiser, completamente grátis para sempre."
+  },
+  "howItWorks": {
+    "title": "Como Funciona",
+    "step1Title": "Envie Sua Foto",
+    "step1Desc": "Arraste e solte ou clique para selecionar qualquer foto antiga, borrada ou danificada do seu dispositivo.",
+    "step2Title": "Restauração com IA",
+    "step2Desc": "Nosso modelo de IA é executado diretamente no seu navegador para melhorar a clareza, reparar danos e aumentar a resolução.",
+    "step3Title": "Baixe o Resultado",
+    "step3Desc": "Compare o antes e depois, depois baixe sua foto restaurada em qualidade total."
+  },
+  "cta": {
+    "title": "Pronto para Restaurar Suas Memórias?",
+    "desc": "Dê vida novas às suas fotos antigas em segundos. Sem cadastro necessário.",
+    "btn": "Experimentar OldPhotoFixer Agora"
+  },
+  "footer": {
+    "home": "Início",
+    "blog": "Blog",
+    "privacy": "Política de Privacidade",
+    "copyright": "Todos os direitos reservados."
+  },
+  "noWebGL": {
+    "title": "Navegador Não Suportado",
+    "desc": "Seu navegador não suporta WebGL, que é necessário para o processamento de fotos com IA. Por favor tente um navegador moderno como Chrome, Firefox ou Edge."
+  },
+  "meta": {
+    "title": "OldPhotoFixer - Ferramenta Gratuita de Restauração de Fotos Antigas com IA no Navegador",
+    "description": "Restaure fotos antigas, borradas e danificadas instantaneamente no seu navegador. Grátis, privado, sem envios. Restauração de fotos com IA sem custos de servidor.",
+    "keywords": "restauração de fotos antigas, restaurar fotos antigas, melhora de fotos, restauração de fotos com IA, restauração de fotos grátis"
+  }
+}

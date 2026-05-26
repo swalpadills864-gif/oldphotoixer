@@ -1,0 +1,91 @@
+{
+  "lang": "fr",
+  "langName": "Français",
+  "dir": "ltr",
+  "siteName": "OldPhotoFixer",
+  "nav": {
+    "tool": "Outil",
+    "blog": "Blog",
+    "features": "Fonctionnalités",
+    "privacy": "Confidentialité"
+  },
+  "hero": {
+    "title": "Restaurez Vos Photos Anciennes avec l'IA",
+    "titleAccent": "Entièrement Gratuit et Privé",
+    "subtitle": "Pas de téléversement. Pas de coûts de serveur. Vos photos ne quittent jamais votre appareil. Propulsé par l'IA s'exécutant directement dans votre navigateur.",
+    "badge1": "100% Privé",
+    "badge2": "Traitement Instantané",
+    "badge3": "100% Gratuit"
+  },
+  "upload": {
+    "text": "Déposez votre photo ancienne ici",
+    "subtext": "ou cliquez pour parcourir",
+    "formats": "Supporte JPG, PNG, WebP (max 10Mo)",
+    "changePhoto": "Changer de Photo"
+  },
+  "process": {
+    "btn": "Restaurer la Photo",
+    "loading": "Chargement des Modèles...",
+    "processing": "Traitement...",
+    "status1": "Initialisation...",
+    "status2": "Chargement du moteur IA...",
+    "status3": "Téléchargement du modèle...",
+    "status4": "Initialisation du modèle...",
+    "status5": "Amélioration de la photo...",
+    "status6": "Application des améliorations...",
+    "status7": "Finalisation...",
+    "status8": "Terminé !",
+    "complete": "Terminé !"
+  },
+  "result": {
+    "header": "Restauration Terminée !",
+    "download": "Télécharger la Photo Restaurée",
+    "before": "Avant",
+    "after": "Après"
+  },
+  "error": {
+    "invalidFormat": "Veuillez sélectionner une image JPG, PNG ou WebP.",
+    "fileTooLarge": "L'image est trop grande. Veuillez sélectionner une image de moins de 10Mo.",
+    "largeFileWarn": "Les grandes images peuvent prendre plus de temps à traiter. Envisagez d'utiliser une image plus petite pour des résultats plus rapides.",
+    "loadFailed": "Échec du chargement de l'image. Veuillez réessayer.",
+    "processFailed": "Échec du traitement de la photo. Veuillez réessayer."
+  },
+  "features": {
+    "title": "Pourquoi Choisir OldPhotoFixer ?",
+    "card1Title": "100% Privé",
+    "card1Desc": "Vos photos ne quittent jamais votre appareil. Tout le traitement se fait localement dans votre navigateur. Pas de téléversement, pas de serveurs, pas de collecte de données.",
+    "card2Title": "Ultra Rapide",
+    "card2Desc": "Traitez vos photos en quelques secondes. Pas d'attente pour les réponses du serveur ni de souci d'échec de téléversement.",
+    "card3Title": "Toujours Gratuit",
+    "card3Desc": "Pas d'abonnement, pas de packs de crédits, pas de filigrane. Restaurez autant de photos que vous voulez, entièrement gratuit pour toujours."
+  },
+  "howItWorks": {
+    "title": "Comment Ça Marche",
+    "step1Title": "Téléchargez Votre Photo",
+    "step1Desc": "Glissez-déposez ou cliquez pour sélectionner n'importe quelle photo ancienne, floue ou endommagée depuis votre appareil.",
+    "step2Title": "Restauration IA",
+    "step2Desc": "Notre modèle d'IA s'exécute directement dans votre navigateur pour améliorer la clarté, réparer les dommages et-upscaler votre photo.",
+    "step3Title": "Téléchargez le Résultat",
+    "step3Desc": "Comparez l'avant et l'après, puis téléchargez votre photo restaurée en qualité complète."
+  },
+  "cta": {
+    "title": "Prêt à Restaurer Vos Souvenirs ?",
+    "desc": "Redonnez vie à vos anciennes photos en quelques secondes. Pas d'inscription requise.",
+    "btn": "Essayer OldPhotoFixer Maintenant"
+  },
+  "footer": {
+    "home": "Accueil",
+    "blog": "Blog",
+    "privacy": "Politique de Confidentialité",
+    "copyright": "Tous droits réservés."
+  },
+  "noWebGL": {
+    "title": "Navigateur Non Supporté",
+    "desc": "Votre navigateur ne supporte pas WebGL, qui est nécessaire pour le traitement de photos par IA. Veuillez utiliser un navigateur moderne comme Chrome, Firefox ou Edge."
+  },
+  "meta": {
+    "title": "OldPhotoFixer - Outil Gratuit de Restauration de Photos Anciennes par IA dans le Navigateur",
+    "description": "Restaurez instantanément les photos anciennes, floues et endommagées dans votre navigateur. Gratuit, privé, sans téléversement. Restauration photo par IA sans coûts de serveur.",
+    "keywords": "restauration photo ancienne, restaurer photos anciennes, amélioration photo, restauration photo IA, restauration photo gratuite"
+  }
+}

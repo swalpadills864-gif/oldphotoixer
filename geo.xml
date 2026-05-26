@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<geo>
+    <url>https://oldphotoixer.ai-world.top</url>
+    <plas> <!-- Primary location address -->
+        <country>US</country>
+        <region>California</region>
+        <city>San Francisco</city>
+        <pcode>94102</pcode>
+        <street>340 Pine Street, Suite 800</street>
+    </plas>
+    <placename>OldPhotoFixer</placename>
+    <state>California</state>
+    <postalcode>94102</postalcode>
+    <country>United States</country>
+</geo>
